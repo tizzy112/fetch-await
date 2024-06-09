@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: aliceblue;
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: purple;
+}
+.navList{
+ list-style: none;
+ display: flex;
+ text-decoration: none;
+ font-size: 20px;
+ gap: 30px;
+ margin-right: 30px;
+ font-weight: 10px;
+ color: purple;
+}
+.navList li a{
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+
+}
+.navList li a:hover{
+ color: orangered;
+}
+.aboutSection{
+    background-color: purple;
+    padding: 5%;
+    color: aliceblue;
+    top: 2px;
+}
+.aboutSection h2{
+    font-size: 40px;
+    display: flex;
+justify-content: center;
+     top: 100%;
+}
+.aboutSection p{
+    display: flex ;
+    justify-content: center;
+    bottom: 300px;
+}
+.productSection{
+    background-color: aliceblue;
+    padding: 7%;
+    
+
+}
+.productSection h2{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    top: 1%;
+}
+.productsDiv{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 300px;
+color: purple;
+}
+.productsDiv .products h4 a{
+    text-decoration: none;
+    color: purple;
+    font-size: 20px;
+}
+.showroomCars{
+    padding: 24px 48px;
+} 
+.showroomCars h2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: purple;
+}
+.showroomJets{
+    padding: 24px 48px;
+} 
+.showroomJets h2{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: purple;
+}
+.carContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    }
+.JetContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        }
+  .carCard {
+            display: flex;
+            flex-direction: column;
+            border: solid purple;
+            padding: 5px;  
+            border-radius: 8px;
+            align-items: center;
+        }
+        .JetCard {
+            display: flex;
+            flex-direction: column;
+            border: solid purple;
+            padding: 5px;  
+            border-radius: 8px;
+            align-items: center;
+        }
+        .carCard img{
+            height: 200px;
+            border-radius: 8px;
+            width: 300px;
+        }
+        .JetCard img{
+            height: 200px;
+            border-radius: 8px;
+            width: 300px;
+        }
+        .carCard div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .JetCard div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .car-card{
+            display: flex;
+            flex-direction: column;
+            border: solid purple;
+            padding: 5px;  
+            border-radius: 8px;
+            align-items: center;  
+        }
+        .car-card img{
+            height: 200px;
+            border-radius: 8px;
+            width: 200px;
+        }
+        .car-card div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;  
+        }
+        .Jet-card{
+            display: flex;
+            flex-direction: column;
+            border: solid purple;
+            padding: 5px;  
+            border-radius: 8px;
+            align-items: center;  
+        }
+        .Jet-card img{
+            height: 200px;
+            border-radius: 8px;
+            width: 200px;
+        }
+        .Jet-card div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;  
+        }
